@@ -1,0 +1,6 @@
+package com.phpimentel.rabbitmqspring.consumer.amqp;
+
+public interface AmqpConsumer<T> {
+
+    void consumer(T t);
+}
